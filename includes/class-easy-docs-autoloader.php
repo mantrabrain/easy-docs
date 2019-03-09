@@ -95,7 +95,7 @@ if ( ! class_exists( 'Easy_Docs_Autoloader' ) ) {
 		 */
 		function category_template( $template ) {
 			if ( is_tax( 'docs_category' ) ) {
-				return EASY_DOCS_DIR_NAME . '/includes/taxonomy-category.php';
+				return EASY_DOCS_DIR_NAME . '/templates/taxonomy-category.php';
 			}
 			return $template;
 		}
@@ -107,7 +107,7 @@ if ( ! class_exists( 'Easy_Docs_Autoloader' ) ) {
 		 */
 		function tag_template( $template ) {
 			if ( is_tax( 'docs_tag' ) ) {
-				return EASY_DOCS_DIR_NAME . '/includes/taxonomy-tag.php';
+				return EASY_DOCS_DIR_NAME . '/templates/taxonomy-tag.php';
 			}
 			return $template;
 		}
