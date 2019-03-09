@@ -1,0 +1,42 @@
+.clearfix:before, 
+.clearfix:after {
+    display: table;
+    content: "";
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* Options Page */
+
+.easy-options-form-wrap{
+    width: 100%;
+}
+
+.easy-shortcodes-wrap{
+    width: 60%;
+}
+
+.easy-shortcode-container{
+    padding: 8px;
+}
+
+.easy-section table{
+    min-height: 180px;
+}
+
+.easy-section .form-table td{
+    vertical-align: top;
+}
+
+.easy-shortcode-container.wp-ui-text-highlight {
+    background: #ebebeb;
+    color: #333;
+    border: 1px solid #e7e7e7;
+    width: 100%;
+}
+
+.easy-options-form-wrap .form-table th {
+    width: 260px;
+}
