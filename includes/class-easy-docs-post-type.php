@@ -173,6 +173,7 @@ class Easy_Docs_Post_Type {
 					'has_archive'         => true,
 					'show_in_nav_menus'   => true,
 					'show_in_rest'        => true,
+                    'menu_icon'            =>'dashicons-media-text'
 				)
 			)
 		);
